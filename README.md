@@ -53,3 +53,7 @@ To build and run the project, follow these steps:
 
 -> The application will be available at http://localhost:8080.
 
+## Resources
+* https://jwt.io/
+* Amigoscode youtube channel
+* https://www.javainuse.com/spring/boot-jwt
