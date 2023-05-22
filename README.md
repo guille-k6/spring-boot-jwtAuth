@@ -1,8 +1,12 @@
 # spring-boot-jwtAuth
 In this project I used spring boot with some libraries managed by maven to create an authentication system that implements the Json Web Token architecture.
-The database that stores the users info is PostgreSQL and it's dropped each time the server reboots. User's passwords are also encrypted with SHA256
+
+The database that stores the users info is PostgreSQL and it's dropped each time the server reboots. User's passwords are also encrypted with SHA256.
+
 The system is pretty basic but it covers the main point that is having a functional authentication for users.
+
 As I didn't develop the front-end of the application, I used Postman to test the endpoints. (warning: when writing the body on POST requests be sure to use the JSON format).
+
 The application has 3 endpoints, 1 secured by JWT authentication and other 2 endpoints used to login and register.
 1. `api/v1/auth/register`. This endpoint is on the whitelist and it's used to register a user to the database, once it's registered a JWT is returned. It requires a POST request with a body in this format:
 ```JSON
